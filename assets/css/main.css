@@ -1,0 +1,101 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(54 255 0 / 95%), rgb(255 244 0));
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.mt-10 {
+    margin-top: 10%;
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.basket i{
+     font-size: 25px;
+}
+.basket{
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+    display: flex;
+    cursor: pointer;
+}
+
+.totalcount{
+    font-size: 15px;
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 17px;
+    text-align: center;
+    margin-right: 100px;
+    color: white;
+}
+
+.modalhead{
+   
+    display: flex;
+    gap: 370px;
+    height: 50px;
+    background-color: rgb(39, 91, 169);
+    color: white;
+   
+}
+.modalclose{
+    margin-top: 17px;
+    float: right;
+    font-size: 20px;
+}
+
+
+.modal{
+  
+  margin-left: 500px;
+   display: none;
+    
+    width: 40%;
+    height: 40vh;
+    border: 1px solid black;
+    
+    
+}
+
+.modalmain{
+    text-align: center;
+}
+
+.modalimg{
+    margin-top: 50px;
+}
+.modalclose{
+    cursor: pointer;
+    margin-left: 100px;
+}
+.modalhead h2 {
+display: inline-block;
+margin-top: 15px;
+margin-left: 10px;
+}
+
+.modalclose1{
+    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal1{
+    margin-left: 500px;
+    text-align: center;
+    display: none;
+    width: 40%;
+    border: 1px solid black;
+}
